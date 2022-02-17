@@ -1,0 +1,15 @@
+# Nmap 7.92 scan initiated Mon Dec 27 14:28:27 2021 as: nmap -sS -p- -n --min-rate 5000 -oN nmap/initial -vv 10.10.126.151
+Increasing send delay for 10.10.126.151 from 5 to 10 due to 142 out of 473 dropped probes since last increase.
+Increasing send delay for 10.10.126.151 from 10 to 20 due to 409 out of 1362 dropped probes since last increase.
+Increasing send delay for 10.10.126.151 from 20 to 40 due to 1326 out of 4418 dropped probes since last increase.
+Nmap scan report for 10.10.126.151
+Host is up, received reset ttl 63 (0.074s latency).
+Scanned at 2021-12-27 14:28:27 CET for 16s
+Not shown: 65532 closed tcp ports (reset)
+PORT   STATE SERVICE REASON
+21/tcp open  ftp     syn-ack ttl 63
+22/tcp open  ssh     syn-ack ttl 63
+80/tcp open  http    syn-ack ttl 63
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Dec 27 14:28:43 2021 -- 1 IP address (1 host up) scanned in 16.18 seconds

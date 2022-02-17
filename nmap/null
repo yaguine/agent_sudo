@@ -1,0 +1,12 @@
+# Nmap 7.92 scan initiated Mon Dec 27 14:28:58 2021 as: nmap -sN -p- -n --min-rate 5000 -oN nmap/null -vv 10.10.126.151
+Nmap scan report for 10.10.126.151
+Host is up, received echo-reply ttl 63 (0.074s latency).
+Scanned at 2021-12-27 14:28:59 CET for 16s
+Not shown: 65532 closed tcp ports (reset)
+PORT   STATE         SERVICE REASON
+21/tcp open|filtered ftp     no-response
+22/tcp open|filtered ssh     no-response
+80/tcp open|filtered http    no-response
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Dec 27 14:29:15 2021 -- 1 IP address (1 host up) scanned in 16.32 seconds
