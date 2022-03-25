@@ -1,4 +1,4 @@
-# Agent Sudo WriteUp
+# Agent Sudo WriteUp (Tryhackme) by [yag1n3](https://github.com/yaguine)
 
 ---
 
